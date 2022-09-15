@@ -8,6 +8,7 @@ const router = express.Router();
 router.post("/", verifyToken, addVideo)
 //update video
 router.put("/:id", verifyToken, addVideo)
+// delete video
 router.delete("/:id", verifyToken, addVideo)
 router.get("/find/:id", getVideo)
 router.put("/view/:id", addView)

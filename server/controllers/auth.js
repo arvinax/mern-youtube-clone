@@ -4,6 +4,7 @@ import bcrypt from "bcryptjs";
 import { createError } from "../error.js";
 import jwt from "jsonwebtoken";
 
+// register direction
 export const signup = async (req, res, next) => {
   try {
     const salt = bcrypt.genSaltSync(10);

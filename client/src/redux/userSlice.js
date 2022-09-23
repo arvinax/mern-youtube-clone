@@ -5,7 +5,7 @@ const initialState = {
   loading: false,
   error: false,
 };
-
+// slices
 export const userSlice = createSlice({
   name: "user",
   initialState,

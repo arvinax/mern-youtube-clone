@@ -11,6 +11,7 @@ export const addVideo = async (req, res, next) => {
     next(err);
   }
 };
+//update vedio
 
 export const updateVideo = async (req, res, next) => {
   try {
